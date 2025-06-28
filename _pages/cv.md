@@ -15,7 +15,7 @@ redirect_from:
 *Sorbonne Université & LEADBAY, Paris, France*  
 - CIFRE PhD Program
 - Thesis: "Knowledge hypergraphs and neural networks for multimedia and multimodal data: B2B sales application"
-• Under the supervision of Claude Montacié and María Victoria Eyharabide.
+• Under the supervision of Claude Montacié, María Victoria Eyharabide and Milan Stankovic.
 
 **Master's Degree in Language and Computer Science** (2022 - 2024)  
 *Sorbonne Université, Paris, France*  
