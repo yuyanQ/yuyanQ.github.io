@@ -2,40 +2,36 @@
 layout: archive
 title: "Sitemap"
 permalink: /sitemap/
-author_profile: false
+author_profile: true
 ---
 
-A list of all the posts and pages found on the site. For you robots out there, there is an [XML version](/sitemap.xml) available for digesting as well.
+{% include base_path %}
 
-## Pages
+A list of all the posts and pages found on the site. For you robots out there, there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
 
+<h2>Pages</h2>
 {% for post in site.pages %}
-  {% unless post.title contains "Archive" or post.title contains "Posts by" or post.title contains "Talk map" or post.title contains "Markdown" or post.title contains "Page not in menu" or post.title contains "Terms and Privacy" %}
-    {% if post.title %}
-* [{{ post.title }}]({{ post.url }})
-    {% endif %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h2>Posts</h2>
+{% for post in site.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% capture written_label %}'None'{% endcapture %}
+
+{% for collection in site.collections %}
+{% unless collection.output == false or collection.label == "posts" %}
+  {% capture label %}{{ collection.label }}{% endcapture %}
+  {% if label != written_label %}
+  <h2>{{ label }}</h2>
+  {% capture written_label %}{{ label }}{% endcapture %}
+  {% endif %}
+{% endunless %}
+{% for post in collection.docs %}
+  {% unless collection.output == false or collection.label == "posts" %}
+  {% include archive-single.html %}
   {% endunless %}
 {% endfor %}
-
-## Publications
-{% for post in site.publications reversed %}
-* [{{ post.title }}]({{ post.url }})
 {% endfor %}
-
-<!-- 暂时隐藏的内容
-## Posts
-{% for post in site.posts %}
-* [{{ post.title }}]({{ post.url }})
-{% endfor %}
-
-## Talks
-{% for post in site.talks reversed %}
-* [{{ post.title }}]({{ post.url }})
-{% endfor %}
-
-## Teaching
-{% for post in site.teaching reversed %}
-* [{{ post.title }}]({{ post.url }})
-{% endfor %}
--->
-
