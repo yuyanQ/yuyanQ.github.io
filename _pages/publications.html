@@ -33,4 +33,11 @@ author_profile: true
 {% endif %}
 
 
+<h2>Debug Info</h2>
+<p>Total publications: {{ site.publications | size }}</p>
+{% for post in site.publications %}
+  <p>Publication found: {{ post.title }}</p>
+{% endfor %}
+
+
 
