@@ -12,7 +12,7 @@ I am a [CIFRE](https://www.enseignementsup-recherche.gouv.fr/fr/les-cifre-46510)
 
 **Background**
 
-My academic journey has been quite diverse – I began with a bachelor's degree in French Literature from Nanjing University of Finance and Economic in China, then transitioned to computational linguistics at Sorbonne Université where I completed both my bachelor's and master's degrees in Linguistics and Computer Science. This interdisciplinary background gives me a unique perspective on how language, technology, and business intersect.
+My academic journey is rooted in France, where I completed both my Bachelor’s and Master’s degrees in Computational Linguistics at Sorbonne Université, with a strong focus on the intersection of language and computer science. Before that, I studied French Literature at Nanjing University of Finance and Economics in China, which laid the foundation for my interest in language and culture. This interdisciplinary background has shaped my unique perspective on the convergence of linguistics, technology, and business.
 
 **Research Interests**
 
