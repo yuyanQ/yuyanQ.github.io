@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a [CIFRE](https://www.enseignementsup-recherche.gouv.fr/fr/les-cifre-46510) PhD student at [Sorbonne Université](https://www.enseignementsup-recherche.gouv.fr/fr/les-cifre-46510) in collaboration with [LEADBAY](https://www.leadbay.ai), working on knowledge hypergraphs and neural networks for multimedia and multimodal data with applications in B2B sales. 
+I am a [CIFRE](https://www.enseignementsup-recherche.gouv.fr/fr/les-cifre-46510) PhD student at [Sorbonne Université](https://www.sorbonne-universite.fr) in collaboration with [LEADBAY](https://www.leadbay.ai), working on knowledge hypergraphs and neural networks for multimedia and multimodal data with applications in B2B sales. 
 
 **Background**
 
