@@ -22,7 +22,7 @@ redirect_from:
 - Specialized in NLP, LLM, Speech Recognition and Synthesis
 - Semantic Indexing and Information Retrieval
 
-**Bachelor's Degree in Language Sciences (Computer Science Track)** (2021 - 2022)  
+**Bachelor's Degree in Linguistics, specialization in computer science** (2021 - 2022)  
 *Sorbonne Université, Paris, France*  
 
 **Bachelor's Degree in French Literature** (2017 - 2021)  
@@ -36,7 +36,7 @@ redirect_from:
 - Developing B2B sales applications using advanced AI techniques
 - Collaborating with industry partners to bridge academic research and practical applications
 
-**Student Researcher** (November 2024 - December 2024)  
+**Student Researcher** (November 2024 - Jun 2025)  
 *LEADBAY, Paris, France*  
 - Research internship focusing on knowledge representation and AI applications
 
