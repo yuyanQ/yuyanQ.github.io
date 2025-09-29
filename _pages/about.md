@@ -17,5 +17,5 @@ Linguistics at Sorbonne Université, with a strong focus on the intersection of 
 
 **Research Interests**
 
-Semantic Web, Knowledge Graphs, Natural Language Processing.
+Multimodal representation learning, knowledge graphs & hypergraphs, natural language processing, semantic web.
 
