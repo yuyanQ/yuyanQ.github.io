@@ -1,0 +1,135 @@
+/* ==========================================================================
+   CV PAGE
+   ========================================================================== */
+
+.cv-page {
+  margin-top: 0.5em;
+}
+
+.cv-block {
+  margin-bottom: 2.5em;
+
+  h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+
+    i {
+      color: var(--global-link-color);
+      font-size: 0.85em;
+    }
+  }
+}
+
+.cv-timeline {
+  position: relative;
+  margin-top: 1.2em;
+  padding-left: 1.4em;
+  border-left: 2px solid var(--global-border-color);
+
+  @include breakpoint(max-width $small) {
+    padding-left: 1em;
+  }
+}
+
+.cv-entry {
+  position: relative;
+  padding-bottom: 1.6em;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0.35em;
+    left: -1.91em;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--global-link-color);
+
+    @include breakpoint(max-width $small) {
+      left: -1.5em;
+    }
+  }
+}
+
+.cv-entry-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5em;
+}
+
+.cv-entry-title {
+  margin: 0;
+  font-size: 1.05em;
+}
+
+.cv-entry-date {
+  flex-shrink: 0;
+  color: var(--global-text-color-light);
+  font-size: $type-size-6;
+  font-family: $sans-serif;
+  white-space: nowrap;
+}
+
+.cv-entry-org {
+  margin-top: 0.2em;
+  font-style: italic;
+  color: var(--global-text-color-light);
+}
+
+.cv-entry-details {
+  margin: 0.6em 0 0;
+  padding-left: 1.2em;
+
+  li {
+    margin-bottom: 0.35em;
+  }
+}
+
+.cv-entry-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-top: 0.5em;
+}
+
+.cv-entry-link {
+  display: inline-block;
+  font-size: $type-size-6;
+}
+
+/* Skills */
+.cv-skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5em;
+  margin-top: 1.2em;
+}
+
+.cv-skill-group h3 {
+  margin: 0 0 0.6em;
+  font-size: $type-size-5;
+  color: var(--global-text-color);
+}
+
+.cv-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.cv-tag {
+  padding: 0.25em 0.75em;
+  font-size: $type-size-6;
+  font-family: $sans-serif;
+  border: 1px solid var(--global-link-color);
+  border-radius: 999px;
+  color: var(--global-text-color);
+  white-space: nowrap;
+}
