@@ -38,6 +38,10 @@ author_profile: true
         {% if post.paperurl %}
           <br><a href="{{ post.paperurl }}"><i class="fa fa-fw fa-file-pdf-o" aria-hidden="true"></i> Download Paper</a>
         {% endif %}
+
+        {% if post.slidesurl %}
+          <br><a href="{{ post.slidesurl | relative_url }}"><i class="fa fa-fw fa-file-powerpoint-o" aria-hidden="true"></i> Slides</a>
+        {% endif %}
       </p>
     </article>
   </div>
