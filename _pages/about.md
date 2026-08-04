@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <div class="home-intro">
-  <p class="home-intro__lead">I am a <a href="https://www.enseignementsup-recherche.gouv.fr/fr/les-cifre-46510">CIFRE</a> PhD student in Computer Science at <a href="https://www.sorbonne-universite.fr">Sorbonne Université</a>, working in collaboration with <a href="https://www.leadbay.ai">LEADBAY</a>.</p>
+  <p class="home-intro__lead">I am a <a href="https://www.enseignementsup-recherche.gouv.fr/fr/les-cifre-46510">CIFRE</a> PhD student in Computer Science at <a href="https://www.sorbonne-universite.fr">Sorbonne Université</a>, in collaboration with <a href="https://www.leadbay.ai">LEADBAY</a>. My research lies at the intersection of table representation learning and knowledge graphs. I am particularly interested in integrating semantic knowledge into representations of structured and semi-structured data, with applications to company understanding and recommendation.</p>
 </div>
 
 <section class="home-section" aria-labelledby="research-interests">

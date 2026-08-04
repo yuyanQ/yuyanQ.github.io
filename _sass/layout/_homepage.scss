@@ -7,14 +7,14 @@
 }
 
 .page--home .page__title {
-  margin-bottom: 1.15rem;
-  font-size: 1.45rem;
-  line-height: 1.2;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.4;
 }
 
 .home-intro__lead {
-  font-size: 1rem !important;
-  line-height: 1.65;
+  font-size: 0.9rem !important;
+  line-height: 1.7;
 }
 
 .home-section {
@@ -25,8 +25,8 @@
   .home-section__heading h2 {
     margin: 0;
     padding-bottom: 0.55rem;
-    font-size: 1.15rem;
-    line-height: 1.35;
+    font-size: 1rem;
+    line-height: 1.4;
   }
 }
 
@@ -160,11 +160,11 @@
 
 @include breakpoint(max-width $small) {
   .page--home .page__title {
-    font-size: 1.3rem;
+    font-size: 0.95rem;
   }
 
   .home-intro__lead {
-    font-size: 0.95rem !important;
+    font-size: 0.9rem !important;
   }
 
   .home-section {
