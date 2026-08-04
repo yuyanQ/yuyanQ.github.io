@@ -9,9 +9,7 @@ redirect_from:
 ---
 
 <div class="home-intro">
-  <p class="home-intro__lead">I am a <a href="https://www.enseignementsup-recherche.gouv.fr/fr/les-cifre-46510">CIFRE</a> PhD student in Computer Science at <a href="https://www.sorbonne-universite.fr">Sorbonne Université</a>, in collaboration with <a href="https://www.leadbay.ai">LEADBAY</a>.</p>
-
-  <p>My academic journey is rooted in France, where I completed both my Bachelor’s and Master’s degrees at Sorbonne Université, with a focus on the intersection of language and business analysis. Before that, I studied French Literature at Nanjing University of Finance and Economics in China.</p>
+  <p class="home-intro__lead">I am a <a href="https://www.enseignementsup-recherche.gouv.fr/fr/les-cifre-46510">CIFRE</a> PhD student in Computer Science at <a href="https://www.sorbonne-universite.fr">Sorbonne Université</a>, working in collaboration with <a href="https://www.leadbay.ai">LEADBAY</a>.</p>
 </div>
 
 <section class="home-section" aria-labelledby="research-interests">
