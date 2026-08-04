@@ -55,7 +55,7 @@ redirect_from:
 <h3 class="cv-entry-title">Bachelor's Degree in French Literature</h3>
 <span class="cv-entry-date">2017 - 2021</span>
 </div>
-<div class="cv-entry-org">Nanjing University of Finance and Economics, China</div>
+<div class="cv-entry-org">Nanjing University of Finance and Economics, Nanjing, China</div>
 </div>
 
 </div>
@@ -74,9 +74,6 @@ redirect_from:
 </div>
 <div class="cv-entry-org">LEADBAY, Paris, France</div>
 <ul class="cv-entry-details">
-<li>Conducting research on knowledge hypergraphs and neural networks for multimedia and multimodal data</li>
-<li>Developing B2B sales applications using advanced AI techniques</li>
-<li>Collaborating with industry partners to bridge academic research and practical applications</li>
 </ul>
 </div>
 
@@ -99,8 +96,6 @@ redirect_from:
 <div class="cv-entry-org">DARAROCKSTARS, Paris, France</div>
 <ul class="cv-entry-details">
 <li>Developed AI microservices for recruitment platforms</li>
-<li>Implemented machine learning solutions for talent acquisition</li>
-<li>Worked with modern AI frameworks and deployment technologies</li>
 </ul>
 </div>
 
