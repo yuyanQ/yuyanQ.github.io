@@ -5,6 +5,8 @@ category: conference
 excerpt: "We show that enriching B2B company embeddings with semantic knowledge from DBpedia improves downstream interaction-prediction performance in a real B2B sales platform."
 date: 2026-05-10
 venue: "ESWC 2026 Industry Track, Dubrovnik, Croatia"
+venue_short: "ESWC 2026"
+authors: "Yuyan Qian, Claude Montacié, Milan Stankovic, María Victoria Eyharabide"
 paperurl: "https://arxiv.org/abs/2606.28355"
 slidesurl: "/files/eswc2026-slides.pdf"
 citation: 'Yuyan Qian, Claude Montacié, Milan Stankovic, Victoria Eyharabide. "DBpedia-Enriched Company Representation for B2B Lead Recommendation." ESWC 2026 Industry Track (preprint: arXiv:2606.28355).'
