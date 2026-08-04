@@ -106,17 +106,15 @@ redirect_from:
 
 <h2><i class="fas fa-file-alt" aria-hidden="true"></i> Publications</h2>
 
-<div class="cv-timeline">
+<div class="cv-publications">
 {% for post in site.publications reversed %}
-<div class="cv-entry">
-<div class="cv-entry-head">
-<h3 class="cv-entry-title">{{ post.title }}</h3>
-<span class="cv-entry-date">{{ post.date | date: "%Y" }}</span>
-</div>
-<div class="cv-entry-org">{{ post.venue }}</div>
-<div class="cv-entry-links">
-{% if post.paperurl %}<a class="cv-entry-link" href="{{ post.paperurl }}" target="_blank" rel="noopener">View Paper</a>{% endif %}
-{% if post.slidesurl %}<a class="cv-entry-link" href="{{ post.slidesurl | relative_url }}" target="_blank" rel="noopener">Slides</a>{% endif %}
+<div class="cv-publication">
+<span class="cv-publication__year">{{ post.date | date: "%Y" }}</span>
+<div class="cv-publication__citation">
+<span class="cv-publication__title">{{ post.title }}</span>
+<span class="cv-publication__venue">{{ post.venue_short | default: post.venue }}</span>
+{% if post.paperurl %}<a class="cv-publication__link" href="{{ post.paperurl }}" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>{% endif %}
+{% if post.slidesurl %}<a class="cv-publication__link" href="{{ post.slidesurl | relative_url }}" target="_blank" rel="noopener">Slides <span aria-hidden="true">↗</span></a>{% endif %}
 </div>
 </div>
 {% endfor %}
