@@ -8,12 +8,19 @@ redirect_from:
   - /about.html
 ---
 
-<div class="home-intro">
+<nav class="home-scroll-nav" aria-label="On this page">
+  <span class="home-scroll-nav__label">On this page</span>
+  <a href="#about">About</a>
+  <a href="#research-interests">Research Interests</a>
+  <a href="#publications">Publications</a>
+</nav>
+
+<div class="home-intro" id="about">
   <p class="home-intro__lead">I am a <a href="https://www.enseignementsup-recherche.gouv.fr/fr/les-cifre-46510">CIFRE</a> PhD student in Computer Science at <a href="https://www.sorbonne-universite.fr">Sorbonne Université</a>, in collaboration with <a href="https://www.leadbay.ai">LEADBAY</a>. My research lies at the intersection of table representation learning and knowledge graphs. I am particularly interested in integrating semantic knowledge into representations of structured and semi-structured data, with applications to company understanding and recommendation.</p>
 </div>
 
-<section class="home-section" aria-labelledby="research-interests">
-  <h2 id="research-interests">Research Interests</h2>
+<section class="home-section" id="research-interests" aria-labelledby="research-interests-heading">
+  <h2 id="research-interests-heading">Research Interests</h2>
   <div class="research-tags" aria-label="Research interests">
     <span class="research-tag">Table Representation Learning</span>
     <span class="research-tag">Knowledge Graphs</span>
